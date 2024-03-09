@@ -14,7 +14,7 @@ $(document).ready(function () {
         super_mode = false;
 
     function makeWrap() {
-        for (var i = 0; i < 200; i++) {
+        for (var i = 0; i < 810; i++) {
             $('<div>', {
                 class: 'bubble',
                 id: i
@@ -46,7 +46,7 @@ $(document).ready(function () {
 
             x += 39;
 
-            if (x > 457) {
+            if (x > 850) {
                 if (even) {
                     x = -19;
                     even = !even;
