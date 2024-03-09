@@ -14,7 +14,7 @@ $(document).ready(function () {
         super_mode = false;
 
     function makeWrap() {
-        for (var i = 0; i < 1304; i++) {
+        for (var i = 0; i < 1305; i++) {
             $('<div>', {
                 class: 'bubble',
                 id: i
